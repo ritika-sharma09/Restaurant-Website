@@ -150,7 +150,6 @@ body{
 }
 .about-text{
     flex:1 1 400px;
-    /* flex isliye liya h jise media query apne ap set ho jye */
     /* border: 2px solid red; */
     padding: 30px;
     margin: auto;
@@ -169,9 +168,7 @@ body{
     max-width: 100%;
     margin: auto;
     object-fit: cover;
-    /* jab hum chorme ki width ko kum jada krte h toh vo shrink hone lgti h uska aspect ratio chnge na ho isliye object-fit:cover likha h */
     object-position: right;
-    /* jb chorme kum jada hoga tb img ki postion center hogi toh right side m white jo space h vo jada aa rhi h isliye shirf img dekhne k liye right krege jise white space kum ho jye */
 }
 
 /* ############## food category styling ############# */
